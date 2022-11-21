@@ -1,0 +1,13 @@
+* {
+    background: #212121;
+    text-align: center;
+    font-family: "Times New Roman", sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    color: whitesmoke;
+}
