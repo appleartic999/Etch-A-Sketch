@@ -9,14 +9,25 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-<h1>Etch A Sketch</h1>
+<p id="heading">Etch A Sketch</p>
 <div id="properties">
-    <p>
-        Grid Size:<input type="number" placeholder="16">
-
-    </p>
+    <form>
+        <label for="grid-size">
+            Grid Size:
+            <input type="number" placeholder="16" id="grid-size">
+        </label>
+        <label for="color">
+            Choose Color:
+            <input type="color" id="color">
+            <input type="checkbox" id="multi-color" checked="checked">Multi Color
+        </label>
+        <button id="submit">Submit</button>
+    </form>
 </div>
-<div id="container"></div>
+<div id="main">
+    <div id="container"></div>
+    <button id="reset">Reset</button>
+</div>
 <script src="./app.js"></script>
 </body>
 </html>

@@ -11,9 +11,18 @@ body {
     align-items: center;
 }
 
-h1 {
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+}
+
+#heading {
     color: whitesmoke;
     margin: 10px;
+    font-size: 30px;
+    font-weight: bolder;
 }
 
 #properties {
@@ -22,11 +31,18 @@ h1 {
 
 p {
     color: whitesmoke;
-    font-size: 18px;
+    font-size: 20px;
 }
 
-input {
+label, input {
     color: whitesmoke;
-    font-size: 16px;
-    width: 48px;
+    font-size: 20px;
+    width: 64px;
 }
+
+button {
+    width: 98px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
